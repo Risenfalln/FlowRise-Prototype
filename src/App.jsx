@@ -1,7 +1,7 @@
 import Header from "./components/Header";
-// import BottomNav from "./components/ui/BottomNav";
-// import Today from "./features/jobs/Today";
-// import JobsList from "./features/jobs/JobsList";
+import BottomNav from "./components/ui/BottomNav";
+import Today from "./features/jobs/Today";
+import JobsList from "./features/jobs/JobsList";
 // import JobDetail from "./features/jobs/JobDetail";
 // import AssistantHome from "./features/assistant/AssistantHome";
 // import AssistantPanel from "./features/assistant/AssistantPanel";
