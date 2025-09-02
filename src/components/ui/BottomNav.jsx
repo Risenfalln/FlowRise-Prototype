@@ -26,4 +26,3 @@ export default function BottomNav({ tab, setTab, theme }) {
     </nav>
   );
 }
-<div className="p-4 bg-green-600 text-white rounded-lg shadow-md">Tailwind Works!</div>

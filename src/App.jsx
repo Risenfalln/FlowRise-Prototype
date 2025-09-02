@@ -51,6 +51,9 @@ export default function App() {
         theme={theme}
         setTheme={setTheme}
       />
+      <div className="p-4 bg-green-600 text-white rounded-lg shadow-md">
+  Tailwind Works!
+</div>
 
       {/* The .app-main class adds top/bottom padding to avoid header/bottom-nav overlap */}
       <main className="app-main flex-1 overflow-y-auto px-4">
