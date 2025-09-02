@@ -4,8 +4,8 @@ import Today from "./features/jobs/Today";
 import JobsList from "./features/jobs/JobsList";
 import JobDetail from "./features/jobs/JobDetail";
 import AssistantHome from "./features/assistant/AssistantHome";
-import AssistantPanel from "./features/assistant/AssistantPanel";
-//import Library from "./features/library/Library";
+//import AssistantPanel from "./features/assistant/AssistantPanel";
+import Library from "./features/library/Library";
 import NewJobModal from "./components/NewJobModal";
 
 export default function App() {
