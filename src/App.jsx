@@ -6,7 +6,7 @@ import JobDetail from "./features/jobs/JobDetail";
 import AssistantHome from "./features/assistant/AssistantHome";
 import AssistantPanel from "./features/assistant/AssistantPanel";
 import Library from "./features/library/Library";
-import NewJobModal from "./components/NewJobModal";
+//import NewJobModal from "./components/NewJobModal";
 
 export default function App() {
   return (
