@@ -37,7 +37,8 @@ export default function App() {
     <div className={`flex flex-col h-screen ${rootBG}`}>
       <Header onOpenAssistant={() => setShowAssistant(true)} theme={theme} setTheme={setTheme} />
 
-      <main className="flex-1 overflow-y-auto p-4 pb-24">
+      {/* pt-16 ≈ header height, pb-20 ≈ bottom nav height, plus some breathing room */}
+      <main className="flex-1 overflow-y-auto px-4 pt-16 pb-20">
         {tab === "today" && <Today onOpenJob={(j) => setCurrentJob(j)} jobs={jobs} theme={theme} />}
         {tab === "jobs" &&
           (currentJob ? (
